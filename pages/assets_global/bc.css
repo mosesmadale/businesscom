@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('./lagos-techie-kwzWjTnDPLk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-size: 2em;
+    width: 100%;
+    align-items: center;
+}
+
+.logo .main {
+    font-size: 5em;
+    font-weight: 900;
+    color: rgb(31, 10, 51);
+}
+
+.logo .sub {
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    width: 60%;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 0.815);
+    backdrop-filter: blur(1px);
+}
+
+.text {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.button-list {
+    display: flex;
+    gap: 1em;
+}
+
+.button {
+    background-color: rgb(31, 10, 51);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+form>* {
+    width: 300px;
+    padding: 20px;
+    border: none;
+}
+
+form>*:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(31, 10, 51);
+    color: white;
+}
